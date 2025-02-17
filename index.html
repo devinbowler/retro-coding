@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Codepoint Problem</title>
+</head>
+<body>
+    <div id="sidebar" class="sidebar open">
+        <button onclick="goHome()" class="home-btn">Home</button>
+        <button onclick="toggleSidebar()" class="close-btn">Close</button>
+        <h2 id="problem-title"></h2>
+        <p id="problem-description"></p>
+        <div id="examples"></div>
+    </div>
+    <div class="editor-container">
+        <pre id="line-numbers">1</pre>
+        <textarea class="editor" id="editor" spellcheck="false"></textarea>
+    </div>
+    <div id="console-container">
+        <textarea id="console" spellcheck="false" placeholder="Type 'help' for commands...">User> </textarea>
+    </div>
+    <button onclick="toggleSidebar()" class="open-btn" id="open-btn">Open Sidebar</button>
+    <script src="renderer.js"></script>
+</body>
+</html>

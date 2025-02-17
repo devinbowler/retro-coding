@@ -1,0 +1,19 @@
+{
+  "name": "Codepoint",
+  "version": "1.0.0",
+  "description": "An app that replicates an old kernal to solve job interview questions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Devin Bowler",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.2.1"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "require": "^2.4.20"
+  }
+}
